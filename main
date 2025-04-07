@@ -1,4 +1,10 @@
 #!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -l vmem=8gb
+#PBS -l walltime=00:10:00
+
 set -e
+
+echo "Loading at $(date)" > /dev./null
 
 singularity exec -e docker://python:3.7 ./validate.py
