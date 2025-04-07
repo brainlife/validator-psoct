@@ -5,6 +5,6 @@
 
 set -e
 
-echo "Loading at $(date)" > /dev./null
+echo "Loading at $(date)" > /dev/null
 
 singularity exec -e docker://python:3.7 ./validate.py
