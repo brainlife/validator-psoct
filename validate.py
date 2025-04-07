@@ -6,7 +6,9 @@ results = {
     "errors": [],
     "warnings": [],
     "meta": {
-        "info": "Temporary ps-oct validator passed"
+        "info": "Temporary ps-oct validator passed with no errors",
+        "version": "0.1",
+        "date": "2025-04-07",
     }
 }
 
