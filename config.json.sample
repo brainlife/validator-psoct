@@ -1,0 +1,19 @@
+{
+    "ps_oct": "testdata/sample_ps_oct.file",
+    "_inputs": [
+        {
+            "id": "ps_oct",
+            "datatype": "67eff765b6ad98f1bfdbc58f",
+            "desc": "Temporary ps‑oct validator",
+            "meta": {
+                "subject": "01"
+            },
+            "tags": [],
+            "subdir": "ps_oct",
+            "datatype_tags": [],
+            "keys": [
+                "ps_oct"
+            ]
+        }
+    ]
+}

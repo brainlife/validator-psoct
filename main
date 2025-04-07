@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+singularity exec -e docker://python:3.7 ./validate.py
